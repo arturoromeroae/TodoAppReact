@@ -1,0 +1,23 @@
+.Container{
+    text-align: center;
+}
+
+.TodoSearch {
+    background: #e4e2e2c7;
+    border-radius: 60px;
+    border: none;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.1s;
+    outline-color: #fdfdfd;
+}
+
+.TodoSearch::placeholder {
+    color: #A5A5A5;
+}
+
+.TodoSearch:focus {
+    transition: linear 0.3s;
+    outline-color: #4dacc7;
+}

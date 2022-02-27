@@ -1,0 +1,35 @@
+.config-form{
+    width: 60%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.config-form input{
+    text-align: center;
+    width: 20%;
+    margin: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .TitleForm{
+        font-size: 20px;
+    }
+
+    .config-form{
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .config-form input{
+        margin: 0px;
+    }
+    
+    .radio{
+        margin: 10px;
+    }
+}

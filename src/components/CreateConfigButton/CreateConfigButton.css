@@ -1,0 +1,14 @@
+.build{
+    padding: 12px;
+    border-radius: 100px;
+    float: right;
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+.build:hover{
+    box-shadow: 0px 0px 10px 0px rgb(112, 112, 112);
+    background-color: rgba(77, 75, 75, 0.329);
+    transition: ease-in 0.3s;
+    transform: rotate(20deg);
+}

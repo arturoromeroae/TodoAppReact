@@ -1,0 +1,33 @@
+.TodoButton{
+    background-color: #48a6c0;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .TodoButton{
+        bottom: 20px;
+        right: 20px;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.TodoButton:hover {
+    transform: rotate(224deg);
+}

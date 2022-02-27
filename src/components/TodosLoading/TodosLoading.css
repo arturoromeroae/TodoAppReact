@@ -1,0 +1,96 @@
+.container{
+    display: block;
+}
+
+.LoadingTodo-container{
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1), rgb(200, 199, 199));
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+    border: 2px solid black;
+    padding: 2%;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-inline: 20px;
+}
+
+.LoadingTodo-container:nth-child(1){
+    margin-top: 60px;
+}
+
+.material-icons{
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.LoadingTodo-deleteIcon{
+    float: right;
+    color: rgb(124, 117, 108);
+}
+
+.LoadingTodo-completeIcon{
+    color: rgb(124, 117, 108);
+}
+
+.LoadingTodo-text{
+    background: linear-gradient(90deg, rgb(165, 165, 165), rgb(197, 197, 197));
+    background-size: 400% 400%;
+    animation: loadingTextAnimation 3s ease-in-out infinite;
+    color: transparent;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    height: 8px;
+}
+
+.LoadingTodo-text2{
+    background: linear-gradient(90deg, rgb(165, 165, 165), rgb(197, 197, 197));
+    background-size: 400% 400%;
+    animation: loadingTextAnimation2 3s ease-in-out infinite;
+    color: transparent;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    height: 8px;
+}
+
+@keyframes loadingAnimation{
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes loadingTextAnimation{
+    0% {
+        margin-right: 5%;
+    }
+
+    50% {
+        margin-right: 20%;
+    }
+
+    100% {
+        margin-right: 5%;
+    }
+}
+
+@keyframes loadingTextAnimation2{
+    0% {
+        margin-right: 10%;
+    }
+
+    50% {
+        margin-right: 20%;
+    }
+
+    100% {
+        margin-right: 10%;
+    }
+}

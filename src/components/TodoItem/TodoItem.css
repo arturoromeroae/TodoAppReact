@@ -1,0 +1,84 @@
+.TodoItem{
+    background-color: rgb(228, 243, 255);
+    border: 2px solid black;
+    padding: 2%;
+    max-width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.material-icons{
+    font-size: 15px;
+}
+
+.Icon {
+    cursor: pointer;
+    font-weight: bold;
+    padding-inline: 5px;
+    /* background-color: #CCC; */
+}
+  
+.Icon-check:hover {
+    color: #009b05;
+    transition: ease-out 0.3s;
+    padding-top: 3px;
+    background-color: rgba(51, 255, 0, 0.2);
+    box-shadow: 0px 0px 0px 0px rgba(51, 255, 0, 0.2);
+    border-radius: 200px;
+}
+
+.Icon-uncheck:hover {
+    color: #9b0500;
+    transition: ease-out 0.3s;
+    padding-top: 3px;
+    background-color: rgba(255, 0, 0, 0.2);
+    box-shadow: 0px 0px 0px 0px rgba(255, 123, 0, 0.2);
+    border-radius: 200px;
+}
+
+.Icon-check--active {
+    color: hsla(0, 0%, 0%, 0.808);
+    background-color: rgba(51, 255, 0, 0.452);
+    border-radius: 200px;
+    padding-top: 3px;
+    transition: linear 0.3s;
+}
+
+.Icon-check--deactivated {
+    color: hsla(0, 0%, 0%, 0.808);
+    background-color: rgba(255, 0, 0, 0.452);
+    border-radius: 200px;
+    padding-top: 3px;
+    transition: linear 0.3s;
+}
+  
+.Icon-delete {
+    float: right;
+}
+
+.Icon-delete:hover {
+    color: rgba(255, 0, 0);
+    transition: ease-out 0.3s;
+    background-color: rgba(255, 0, 0, 0.2);
+    box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.2);
+    border-radius: 200px;
+}
+
+.TodoItem-p {
+    margin: 2px 0 2px 2px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+    transition: linear 1s;
+}
+
+@media only screen and (max-width: 600px) {
+    .TodoItem{
+        max-width: 70%;
+    }
+}

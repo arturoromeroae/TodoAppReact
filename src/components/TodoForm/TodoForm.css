@@ -1,0 +1,115 @@
+.TitleForm{
+    padding: 10px;
+}
+
+form{
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+form label{
+    display: block;
+}
+
+form textarea{
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    resize: none;
+}
+
+form textarea::placeholder{
+    color: rgba(12, 12, 12, 0.233);
+}
+
+.cancelTodo{
+    background-color: rgba(255, 0, 0, 0.705);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-inline: 20px;
+    padding: 10px;
+    transition: ease-in 0.2s;
+}
+
+.addTodo{
+    background-color: #48a6c0;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    transition: ease-in 0.2s;
+}
+
+.addTodo:hover{
+    background-color: #4299b1;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.cancelTodo:hover{
+    background-color: rgba(209, 1, 1, 0.705);
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.cancel{
+    color: rgb(163, 0, 0);
+    font-size: 20px;
+    align-items: center;
+}
+
+.add{
+    color: rgb(0, 92, 134);
+    font-size: 20px;
+    align-items: center;
+}
+
+.CloseModal{
+    cursor: pointer;
+    margin-left: 370px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+}
+
+.CloseModal:hover{
+    color: rgb(121, 121, 121);
+}
+
+
+@media only screen and (max-width: 600px) {
+    form{
+        width: 80%;
+    }
+
+    form textarea{
+        width: 250px;
+        height: 200px;
+    }
+
+    .cancelTodo{
+        font-size: 15px;
+        margin-inline: 5px;
+        padding: 5px;
+    }
+    
+    .addTodo{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .CloseModal{
+        float: right;
+        margin-left: 128px;
+        font-size: 20px;
+    }
+}

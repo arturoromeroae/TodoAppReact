@@ -1,0 +1,12 @@
+.TodoTitle{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+}
+
+.TodoCounter{
+    text-align: center;
+    margin: 5px;
+    font-weight: 100;
+}

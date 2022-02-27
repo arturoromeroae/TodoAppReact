@@ -1,0 +1,15 @@
+.tituloEmpty{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.animationContainer{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .animationContainer{
+        width: 70%;
+    }
+}

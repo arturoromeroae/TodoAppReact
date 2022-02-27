@@ -1,0 +1,21 @@
+.containerApp{
+  background-color: #48a6c0;
+  margin: 0;
+  padding: 10px;
+}
+
+.illustration{
+  position: absolute;
+  width: 15%;
+}
+
+.firstTodo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .illustration{
+    display: none;
+  }
+}
